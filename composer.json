@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-plugin",
+    "name": "internezzo/assetcollectiontools",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Internezzo\\AssetCollectionTools\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Internezzo.AssetCollectionTools"
+        }
+    }
+}

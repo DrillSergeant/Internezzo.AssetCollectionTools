@@ -1,0 +1,10 @@
+Neos:
+  Neos:
+    userInterface:
+      inspector:
+        dataTypes:
+          'Neos\Media\Domain\Model\AssetCollection':
+            typeConverter: 'Neos\Neos\TypeConverter\EntityToIdentityConverter'
+            editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+            editorOptions:
+              dataSourceIdentifier: 'internezzo-assetcollectiontools-assetcollections'
